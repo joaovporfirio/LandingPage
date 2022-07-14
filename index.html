@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,user-scalable=0" />
+    <title>Websiteando</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.querySelector(".menu_mobile").addEventListener("click", function () {
+                if (document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/img/logo.png" alt="Logo Websiteando" /></a>
+            </div>
+
+            <div class="menu">
+                <nav>
+
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li class="active"><a href="">Institucional</a></li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="area">
+                <div class="banner_headline">
+                    <h1>Websiteando.</h1>
+                    <h2>Agência de comunicação e desenvolvimento web com foco em resultado, sem fórmula mágica ou
+                        receita de bolo.</h2>
+                    <button id="buttonbanner" onclick="">Serviços</button>
+                </div>
+                <div class="form">
+                    <div id="header_form">
+                        <h1>Solicitar orçamento</h1>
+                    </div>
+                    <div id="body_form">
+                        <p>Preencha os campos do formulário abaixo que iremos entrar em contato o mais breve possível.
+                        </p>
+
+                        <form name="cadastro" action="" method="post" enctype="multipart/form-data">
+                            <label>
+                                <input type="text" name="nome" placeholder="Digite o seu nome" />
+                            </label>
+                            <label>
+                                <input type="email" name="email" placeholder="Digite o seu email" />
+                            </label>
+
+                            <label>
+                                <button type="submit">Solicitar</button>
+                            </label>
+
+                        </form>
+                    </div>
+                    <div id="footer_form"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="container column">
+            <div class="servicos_title">
+                <h1>Nossos Serviços</h1>
+            </div>
+            <div class="servicos">
+
+                <div class="servico1">
+                    <img src="assets/img/web-page (1).png" alt="" />
+                    <h2>Landing Page</h2>
+                    <p>Página simples, podendo ser uma página de captura, página de obrigado ou até mesmo uma página de
+                        apresentação simples do seu negócio.</p>
+                </div>
+                <div class="servico2">
+                    <img src="assets/img/internet.png" alt="" />
+                    <h2>Website Institucional</h2>
+                    <p>Website composto por 3 a 5 páginas para apresentação completa do seu negócio. Costuma conter
+                        página de início, sobre, serviços e contato.</p>
+                </div>
+                <div class="servico3">
+                    <img src="assets/img/ecommerce.png" alt="" />
+                    <h2>Ecommerce</h2>
+                    <p>Website semelhante ao institucional porém é adicionado uma loja virtual em que o cliente pode
+                        realizar compras e pagamento online.</p>
+                </div>
+
+            </div>
+            <div class="servicosbutton">
+                <button>Solicitar Orçamento</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section3">
+        <div class="container column">
+            <div class="jobs_title">
+                <h1>Alguns Jobs</h1>
+            </div>
+            <div class="jobs_body1">
+
+                <div class="job1">
+                    <img src="assets/img/img01.png" alt="" />
+
+
+                </div>
+                <div class="job2">
+                    <img src="assets/img/img02.png" alt="" />
+
+                </div>
+            </div>
+            <div class="jobs_body2">
+
+                <div class="job3">
+                    <img src="assets/img/img03.png" alt="" />
+
+
+                </div>
+                <div class="job4">
+                    <img src="assets/img/img04.png" alt="" />
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container column">
+            <div class="footer">Copyright - Todos os direitos reservados - <a
+                    href="https://github.com/joaovporfirio">Desenvolvido por <strong> João Victor Porfírio</strong>.</a>
+                <a href="https://github.com/joaovporfirio"><img src="assets/img/git.png" alt="Icon GitHub" /></a>
+            </div>
+
+
+        </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

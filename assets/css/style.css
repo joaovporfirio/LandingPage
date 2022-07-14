@@ -1,0 +1,581 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(248, 248, 248);
+    
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav ul {
+    display: flex;
+
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.active a {
+    background-color: #FFDD00;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.active a:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+
+.column {
+    flex-direction: column;
+
+}
+
+.area {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.banner_headline {
+    flex: 2;
+
+}
+
+.banner_headline h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 450px;
+    margin-top: 90px;
+}
+
+.banner_headline h2 {
+
+    font-size: 20px;
+    color: #fff;
+    max-width: 450px;
+}
+
+#buttonbanner {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 6px;
+
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+}
+
+#buttonbanner:hover {
+    background-color: #FFDD00;
+    color: #fff;
+}
+
+
+
+.form {
+    flex: 1;
+    background-color: rgb(241, 241, 241);
+    margin-top: 95px;
+    box-shadow: 0px 0px 4px #fff;
+}
+
+#header_form {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: rgb(44, 44, 44);
+    width: 350px;
+    background-color: #FFDD00;
+}
+
+#body_form {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    height: 250px;
+}
+
+#body_form p {
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#body_form label {
+    display: block;
+    margin-top: 10px;
+
+
+
+
+}
+
+#body_form input {
+    font-size: 15px;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid rgb(83, 83, 83);
+    padding: 4px;
+
+
+}
+
+#body_form button {
+
+    margin-top: 5px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #FFDD00;
+    color: rgb(44, 44, 44);
+    width: 310px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#body_form button:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+#footer_form {
+    background-color: #FFDD00;
+    height: 10px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+.servicos {
+    display: flex;
+
+    flex: 1;
+
+}
+
+.servicos_title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.servicos_title h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.servico1,
+.servico2,
+.servico3 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 3px #000;
+    padding: 10px;
+
+
+}
+
+.servico1:hover,
+.servico2:hover,
+.servico3:hover {
+    background-color: #eee;
+
+
+}
+
+.servico1 img,
+.servico2 img,
+.servico3 img {
+
+
+    width: 75px;
+    height: 75px;
+}
+
+.servico1 h2,
+.servico2 h2,
+.servico3 h2 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.servicosbutton {
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.servicosbutton button {
+
+    margin-top: 5px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #FFDD00;
+    color: rgb(44, 44, 44);
+    width: 300px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px;
+
+}
+.servicosbutton button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+   
+}
+.jobs_title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.jobs_title h1 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.jobs_body1{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobs_body2{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.job1 img,
+.job2 img,
+.job3 img,
+.job4 img {
+
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+    box-shadow: 0px 0px 4px rgb(75, 75, 75);
+}
+
+.job1 img:hover,
+.job2 img:hover,
+.job3 img:hover,
+.job4 img:hover {
+
+box-shadow: 0px 0px 7px #000;
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+
+}
+.footer {
+    display: flex;
+    flex: 1;    
+    border-top: 1px solid #000;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.footer img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer a{
+    text-transform: none;
+    font-weight: 400;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #000;
+}
+
+.menu_mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+
+@media(max-width:768px){
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .form {
+        
+        margin-right: 15px;
+    }
+
+    #header_form {
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        color: rgb(44, 44, 44);
+        width: 340px;
+        
+        background-color: #FFDD00;
+    }
+
+    .banner_headline h1 {
+        margin-left: 15px;
+        font-size: 35px;
+    }
+    .banner_headline h2 {
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    #buttonbanner {
+        margin-left: 15px;
+    
+    }
+
+    .servicos_title {
+        margin-left: 15px;
+    }
+    .servico1,
+.servico2,
+.servico3 {
+    margin: 10px;
+}
+
+.jobs_title {
+    margin-left: 15px;
+}
+
+.job1 img,
+.job2 img,
+.job3 img,
+.job4 img {
+
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 0px 0px 4px rgb(75, 75, 75);
+}
+.footer{
+    margin-left: 15px;
+}
+}
+
+@media(max-width:490px){
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .area{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        
+        margin: 20px;
+    }
+
+    #header_form {
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        color: rgb(44, 44, 44);
+        width: 340px;
+        
+        background-color: #FFDD00;
+    }
+
+    .banner_headline h1 {
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    .banner_headline h2 {
+        margin-left: 20px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    #buttonbanner {
+        margin-left: 20px;
+    
+    }
+
+    .servicos_title {
+        text-align: center;
+        font-size: 18px;
+    }
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+}
+.servico1,
+.servico2,
+.servico3 {
+    margin: 10px;
+    
+}
+
+.jobs_title {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.jobs_body1,.jobs_body2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job1 img,
+.job2 img,
+.job3 img,
+.job4 img {
+    
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 4px rgb(75, 75, 75);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
